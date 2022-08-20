@@ -27,3 +27,4 @@ git config --global user.name manh (thêm tên đăng nhập)
 git config --global user.email manhthenguyen113@gmail.com (thêm email)
 git config --global user.password 0987739823asD (thêm mật khẩu)
 git config --global --unset-all (đăng xuất git)
+
