@@ -17,8 +17,7 @@ Bước 3: kiểm tra: git status (kiểm tra trạng thái hoạt động của
 Bước 4: git commit -m 'Nội dung commit'
 Bước 5: git remote add origin https://github.com/manhz2003/Learn_js.git
 (user link của project cần tạo, chỉ cần thêm bước này khi lần đầu tạo project)
-Bước 6: git push -u origin master (có thể thay master thành tên của nhánh khác)
-
+Bước 7: git pull (kéo mọi thay từ nhánh chính về máy)
 *CÁCH CLONE CODE TỪ GITHUB VỀ MÁY
 Bước 1: Chọn vị trí cần clone
 Bước 2: git colone https://github.com/manhz2003/Learn_js.git
@@ -29,6 +28,7 @@ Bước 4: tạo nhánh: git checkout -b tên nhánh (ví dụ: git checkout -b 
 Bước 5: git add .
 Bước 6: git commit -m 'nội dung commit'
 Bước 7: git push origin tên nhánh (ví dụ: git push origin manh1)
+Bước 8: git pull (kéo mọi thay từ nhánh chính về máy)
 
 *LƯU Ý: + PHẢI CD ĐẾN ĐÚNG VỊ TRÍ CLONE
         + CHỈ ĐƯỢC TẠO FILE MỚI NẰM BÊN TRONG THƯ MỤC CLONE, K SẼ BỊ LỖI
@@ -51,9 +51,5 @@ git config --global user.password
 git config --list
 git remote add origin
 
-hello
-
-
-test pull
 
 
