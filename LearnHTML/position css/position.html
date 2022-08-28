@@ -6,10 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POSITION CSS</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .box1 {
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            margin: 0 auto;
+            position: fixed;
+        }
+        
+        .box1-child {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(213, 20, 97);
+            position: absolute;
+            right: 80%;
+        }
+        
+        div {
+            height: 2000px;
+            background-color: blue;
+        }
+        
+        p {
+            color: #000000;
+            padding-top: 500px;
+            font-size: 25px;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- kiến thức positon (dùng để căn chỉnh vị phần tử trên trang web)
+        - relative (vị trí tương đối)
+        - absolute (vị trí tuyệt đối)
+        - fixed (vị trí cố định)
+    -->
 
+    <div>
+        <div class="box1">
+            <div class="box1-child"></div>
+        </div>
+        <p>dsdaaaaaaaaa</p>
+    </div>
 </body>
 
 </html>

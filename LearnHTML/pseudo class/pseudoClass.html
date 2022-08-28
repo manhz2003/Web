@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEODO CLASS</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 300px;
+            background-color: red;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .box:hover {
+            background-color: blue;
+        }
+        
+        .text {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .text:hover {
+            color: red;
+        }
+        
+        input {
+            font-size: 20px;
+        }
+        
+        input:focus {
+            background-color: pink;
+        }
+        
+        li:first-child {
+            color: rgb(225, 18, 146);
+            font-size: 20px;
+        }
+        
+        li:nth-child(4) {
+            color: rgb(225, 18, 146);
+            font-size: 20px;
+        }
+        
+        li:last-child {
+            color: rgb(225, 18, 146);
+            font-size: 20px;
+        }
+        
+        .test:active {
+            font-size: 50px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- các thuộc tính thường dùng của lớp giả
+        1.hover (di chuột vào phần tử thì hiện ra)
+        2. focus (thay đổi khi con trỏ chuột đang nằm ở phần tử đó)
+        3. first-child (chỉ css vào phần tử đầu tiên)
+        4. nth-child (chọn vị trí phần tử cụ thể để css)
+        5. ative (khi ấn chuột vào phần tử sẽ được thay đổi)
+    -->
+    <div class="box">
+        <div class="text">Ví dụ về lớp giả</div>
+    </div>
+    <input type="text" placeholder="bạn muốn tìm kiếm gì ?">
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <span class="test">ví dụ</span>
+</body>
+
+</html>

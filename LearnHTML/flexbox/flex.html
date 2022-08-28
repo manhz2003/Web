@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        ul {
+            display: flex;
+            font-size: 25px;
+            justify-content: center;
+        }
+        
+        li {
+            padding: 10px 25px;
+            list-style: none;
+        }
+        
+        li:focus {
+            background-color: red;
+            color: blue;
+        }
+        
+        .box {
+            background-color: pink;
+        }
+        
+        li:nth-child(5) {
+            background-color: aliceblue;
+            color: black;
+        }
+        
+        .first:hover {
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- dùng để căn chỉnh khoảng cách các phần tử theo hàng và cột-->
+    <div class="box">
+        <ul>
+            <li class="first">javascript</li>
+            <li>PHP</li>
+            <li>Ruby</li>
+            <li>C#</li>
+            <li>Python</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
